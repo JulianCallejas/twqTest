@@ -1,0 +1,24 @@
+<svg width="145" height="30" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Dosis:400,400i,700,700i");
+        .text {
+            fill: none;
+            stroke: white;
+            stroke-width: 0.5;
+            stroke-dasharray: 900;
+            animation: dash 12s linear infinite;
+        }
+
+        @keyframes dash {
+            
+            40% {
+                stroke-dashoffset: 0;
+                fill: white;
+            }
+            
+        }
+    </style>
+    <text x="10" y="20" class="text" font-family="Dosis" font-size="14" stroke-dashoffset="1000">
+        Programing Languages
+    </text>
+</svg>
